@@ -51,7 +51,7 @@ def mrsencd():
         htmp=dbenc(dott,dasht,i)
         hn=hn+htmp
     finalhashencd=hashencd+" "+hn
-    #print(hn,n,finalhashencd)
+    #print(hn,n,finalhashencd,M.H)
     #this will run with the digits to be encoded and pass this concatinated string to hash funnel
     sha1_builtin(finalhashencd) #final hash post preventive tech
     #the following hash is for just the string without length prevention attack and see its different from the one
